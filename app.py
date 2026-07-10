@@ -39,17 +39,17 @@ st.sidebar.header("⚙️ Setări aplicație")
 
 firma_proprie = st.sidebar.text_input(
     "Firma proprie",
-    value="KEO NET S.R.L"
+    value="Company Name"
 )
 
 tesseract_path = st.sidebar.text_input(
     "Calea către Tesseract",
-    value=r"C:\Users\Claudiu\AppData\Local\Programs\Tesseract-OCR\tesseract.exe"
+    value=r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 )
 
 poppler_path = st.sidebar.text_input(
     "Calea către folderul bin din Poppler",
-    value=r"F:\00FIIIRR\_IEMA\MDAC\poppler-25.11.0\Library\bin"
+    value=r"C:\poppler\Library\bin"
 )
 
 st.sidebar.info(
