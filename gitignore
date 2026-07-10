@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+facturiapp/
+
+# Streamlit
+.streamlit/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Private and generated files
+*.pdf
+*.xlsx
+*.xls
+*.zip
+FacturiRaw/
+FacturiPrelucrate/
+output/
+temp/
+tmp/
+
+# Environment variables
+.env
